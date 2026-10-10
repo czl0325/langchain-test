@@ -1,0 +1,395 @@
+{
+    "data": {
+        "cityList": [
+            {
+                "cityId": "110020517",
+                "cityName": "曼谷",
+                "cityType": "2",
+                "countryCode": "TH",
+                "coverPath": null
+            },
+            {
+                "cityId": "110019171",
+                "cityName": "香港",
+                "cityType": "1",
+                "countryCode": "CN",
+                "coverPath": null
+            },
+            {
+                "cityId": "110196719",
+                "cityName": "迪拜",
+                "cityType": "2",
+                "countryCode": "AE",
+                "coverPath": null
+            },
+            {
+                "cityId": "110016458",
+                "cityName": "巴厘岛",
+                "cityType": "2",
+                "countryCode": "ID",
+                "coverPath": null
+            },
+            {
+                "cityId": "321",
+                "cityName": "上海市",
+                "cityType": "0",
+                "countryCode": "CN",
+                "coverPath": null
+            },
+            {
+                "cityId": "110017400",
+                "cityName": "东京",
+                "cityType": "2",
+                "countryCode": "JP",
+                "coverPath": null
+            },
+            {
+                "cityId": "110080677",
+                "cityName": "纽约",
+                "cityType": "2",
+                "countryCode": "US",
+                "coverPath": null
+            },
+            {
+                "cityId": "53",
+                "cityName": "北京市",
+                "cityType": "0",
+                "countryCode": "CN",
+                "coverPath": null
+            },
+            {
+                "cityId": "110019971",
+                "cityName": "普吉",
+                "cityType": "2",
+                "countryCode": "TH",
+                "coverPath": null
+            },
+            {
+                "cityId": "110019490",
+                "cityName": "首尔",
+                "cityType": "2",
+                "countryCode": "KR",
+                "coverPath": null
+            }
+        ],
+        "continentCityList": [
+            {
+                "continentId": 110014422,
+                "continentName": "亚洲",
+                "cityList": [
+                    {
+                        "cityId": "110020517",
+                        "cityName": "曼谷",
+                        "cityType": "2",
+                        "countryCode": "TH",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110019171",
+                        "cityName": "香港",
+                        "cityType": "1",
+                        "countryCode": "CN",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110016458",
+                        "cityName": "巴厘岛",
+                        "cityType": "2",
+                        "countryCode": "ID",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "53",
+                        "cityName": "北京市",
+                        "cityType": "0",
+                        "countryCode": "CN",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110019490",
+                        "cityName": "首尔",
+                        "cityType": "2",
+                        "countryCode": "KR",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110017400",
+                        "cityName": "东京",
+                        "cityType": "2",
+                        "countryCode": "JP",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "321",
+                        "cityName": "上海市",
+                        "cityType": "0",
+                        "countryCode": "CN",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110019971",
+                        "cityName": "普吉",
+                        "cityType": "2",
+                        "countryCode": "TH",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110018368",
+                        "cityName": "吉隆坡",
+                        "cityType": "2",
+                        "countryCode": "MY",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110019065",
+                        "cityName": "马尼拉",
+                        "cityType": "2",
+                        "countryCode": "PH",
+                        "coverPath": null
+                    }
+                ]
+            },
+            {
+                "continentId": 110022312,
+                "continentName": "欧洲",
+                "cityList": [
+                    {
+                        "cityId": "110066303",
+                        "cityName": "伦敦",
+                        "cityType": "2",
+                        "countryCode": "GB",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110029276",
+                        "cityName": "巴黎",
+                        "cityType": "2",
+                        "countryCode": "FR",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110047317",
+                        "cityName": "罗马",
+                        "cityType": "2",
+                        "countryCode": "IT",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110044856",
+                        "cityName": "米兰",
+                        "cityType": "2",
+                        "countryCode": "IT",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110037911",
+                        "cityName": "柏林",
+                        "cityType": "2",
+                        "countryCode": "DE",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110059613",
+                        "cityName": "巴塞罗那",
+                        "cityType": "2",
+                        "countryCode": "ES",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110051169",
+                        "cityName": "阿姆斯特丹",
+                        "cityType": "2",
+                        "countryCode": "NL",
+                        "coverPath": null
+                    }
+                ]
+            },
+            {
+                "continentId": 110071516,
+                "continentName": "北美洲",
+                "cityList": [
+                    {
+                        "cityId": "110080677",
+                        "cityName": "纽约",
+                        "cityType": "2",
+                        "countryCode": "US",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110088750",
+                        "cityName": "洛杉矶",
+                        "cityType": "2",
+                        "countryCode": "US",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110081721",
+                        "cityName": "拉斯维加斯",
+                        "cityType": "2",
+                        "countryCode": "US",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110073804",
+                        "cityName": "温哥华",
+                        "cityType": "2",
+                        "countryCode": "CA",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110072443",
+                        "cityName": "多伦多",
+                        "cityType": "2",
+                        "countryCode": "CA",
+                        "coverPath": null
+                    }
+                ]
+            },
+            {
+                "continentId": 110003114,
+                "continentName": "中美洲",
+                "cityList": [
+                    {
+                        "cityId": "110003800",
+                        "cityName": "坎昆",
+                        "cityType": "2",
+                        "countryCode": "MX",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110004343",
+                        "cityName": "墨西哥城",
+                        "cityType": "2",
+                        "countryCode": "MX",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110004736",
+                        "cityName": "巴拿马",
+                        "cityType": "2",
+                        "countryCode": "PA",
+                        "coverPath": null
+                    }
+                ]
+            },
+            {
+                "continentId": 110010270,
+                "continentName": "南美洲",
+                "cityList": [
+                    {
+                        "cityId": "110011075",
+                        "cityName": "圣保罗",
+                        "cityType": "2",
+                        "countryCode": "BR",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110011355",
+                        "cityName": "里约热内卢",
+                        "cityType": "2",
+                        "countryCode": "BR",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110010321",
+                        "cityName": "布宜诺斯艾利斯",
+                        "cityType": "2",
+                        "countryCode": "AR",
+                        "coverPath": null
+                    }
+                ]
+            },
+            {
+                "continentId": 110005002,
+                "continentName": "大洋洲",
+                "cityList": [
+                    {
+                        "cityId": "110008463",
+                        "cityName": "悉尼",
+                        "cityType": "2",
+                        "countryCode": "AU",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110005830",
+                        "cityName": "墨尔本",
+                        "cityType": "2",
+                        "countryCode": "AU",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110009353",
+                        "cityName": "奥克兰",
+                        "cityType": "2",
+                        "countryCode": "NZ",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110008887",
+                        "cityName": "斐济",
+                        "cityType": "2",
+                        "countryCode": "FJ",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110007392",
+                        "cityName": "黄金海岸",
+                        "cityType": "2",
+                        "countryCode": "AU",
+                        "coverPath": null
+                    }
+                ]
+            },
+            {
+                "continentId": 110000000,
+                "continentName": "非洲",
+                "cityList": [
+                    {
+                        "cityId": "110000278",
+                        "cityName": "开罗",
+                        "cityType": "2",
+                        "countryCode": "EG",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110000693",
+                        "cityName": "毛里求斯",
+                        "cityType": "2",
+                        "countryCode": "MU",
+                        "coverPath": null
+                    },
+                    {
+                        "cityId": "110001728",
+                        "cityName": "开普敦",
+                        "cityType": "2",
+                        "countryCode": "ZA",
+                        "coverPath": null
+                    }
+                ]
+            }
+        ]
+    },
+    "errorMessage": "",
+    "errorCode": null,
+    "meta": {
+        "cost": {
+            "sub": {
+                "aspectAddTraceLogTime": 0,
+                "translate": 0
+            },
+            "total": 1,
+            "count": {
+                "aspectAddTraceLogTime": 1,
+                "translate": 1
+            }
+        },
+        "size": {
+            "outer": 4167
+        },
+        "useCache": {
+            "all": 0
+        }
+    },
+    "oriLangTextList": null,
+    "error": false
+}
