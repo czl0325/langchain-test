@@ -1,7 +1,9 @@
-dotenv==0.9.9
 langchain==1.4.2
 langchain-community==0.4.2
 langchain-core==1.6.4
 langchain-openai==1.6.4
 langchain-ollama==1.1.0
+langchain-redis==0.2.6
 redis==8.1.0
+python-dotenv==1.2.4
+dashscope==1.27.7
