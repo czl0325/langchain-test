@@ -1,0 +1,13 @@
+{
+  "mcpServer": {
+    "weather": {
+      "url": "http://127.0.0.1:9000/sse",
+      "transport": "sse"
+    },
+    "fetch": {
+      "command": "mcp-server-fetch",
+      "args": [],
+      "transport": "stdio"
+    }
+  }
+}

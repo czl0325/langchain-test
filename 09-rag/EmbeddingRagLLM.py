@@ -30,7 +30,7 @@ docx_path = os.path.join(script_dir, "故障代码.docx")
 documents = Docx2txtLoader(docx_path).load()
 
 # text_splitter = CharacterTextSplitter(chunk_size=2000, chunk_overlap=100, separator="\n", length_function=len)
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=30, length_function=len)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50, length_function=len)
 texts = text_splitter.split_documents(documents)
 print(f"文档个数：{len(texts)}")
 
