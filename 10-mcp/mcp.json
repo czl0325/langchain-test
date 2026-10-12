@@ -5,8 +5,10 @@
       "transport": "sse"
     },
     "fetch": {
-      "command": "mcp-server-fetch",
-      "args": [],
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
       "transport": "stdio"
     }
   }

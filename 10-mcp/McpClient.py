@@ -4,7 +4,6 @@ import os
 
 from langchain_mcp_adapters.client import MultiServerMCPClient
 from langchain_ollama import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.agents import create_agent
 
 model = ChatOllama(base_url="http://localhost:11434", model="qwen3:8b", reasoning=False)
@@ -24,13 +23,7 @@ async def run_chat_loop():
     tools = await mcp_client.get_tools()
     print(f"已加载工具：{[t.name for t in tools]}")
 
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", "你是一个有用的助手，需要通过提供的工具来完成用户需求"),
-        ("human", "{input}"),
-        MessagesPlaceholder("memory")
-    ])
-    
-    agent = create_agent(model, tools)
+    agent = create_agent(model, tools, system_prompt="你是一个有用的助手，需要通过提供的工具来完成用户需求。当用户提供URL或要求获取网页内容时，必须使用fetch工具获取信息。当用户询问天气时，使用get_weather工具。")
 
     print("\n=== MCP 客户端已启动 ===")
     print("输入问题开始对话，输入 'quit' 退出\n")
@@ -38,16 +31,12 @@ async def run_chat_loop():
     while True:
         try:
             user_input = input("你: ").strip()
-            
             if not user_input:
                 continue
-            
             if user_input.lower() == "quit":
                 print("再见！")
                 break
-            
             response = await agent.ainvoke({"messages": [{"role": "user", "content": user_input}]})
-            
             if "messages" in response:
                 last_message = response["messages"][-1]
                 if hasattr(last_message, "content"):
