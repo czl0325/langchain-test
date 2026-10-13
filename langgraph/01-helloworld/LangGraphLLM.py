@@ -1,4 +1,6 @@
 from typing import TypedDict, Annotated
+
+from langchain_core.runnables import RunnableConfig
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langgraph.checkpoint.redis import RedisSaver
@@ -27,7 +29,7 @@ memory = RedisSaver(redis_url="redis://localhost:6380")
 memory.setup()
 app = graph.compile(checkpointer=memory)
 
-config = {"configurable": {"thread_id": "1"}}
+config: RunnableConfig = RunnableConfig(configurable={"thread_id": "1"})
 result = app.invoke({"messages": "我叫张三，你叫什么？"}, config)
 print(result)
 result = app.invoke({"messages": "我叫什么？"}, config)
