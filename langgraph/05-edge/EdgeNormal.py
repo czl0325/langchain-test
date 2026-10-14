@@ -1,7 +1,9 @@
+from typing import TypedDict
+
 from langgraph.graph import StateGraph, START, END
 
 
-class MyState(StateGraph):
+class MyState(TypedDict, total=False):
     value: int
     step: str
 

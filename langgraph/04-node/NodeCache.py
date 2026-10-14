@@ -6,7 +6,7 @@ from langgraph.graph import StateGraph
 from langgraph.types import CachePolicy
 
 
-class MyState(TypedDict):
+class MyState(TypedDict, total=False):
     x: int
     result: int
 
